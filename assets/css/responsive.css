@@ -1,0 +1,484 @@
+/* media */
+@media screen and (max-width: 550px) {
+  .container {
+    margin: 0 20px;
+  }
+  /* sub header */
+
+  .sub-header .left-content p {
+    display: none;
+  }
+
+  .sub-header .right-icons {
+    margin: 0 auto;
+  }
+  .sub-header .right-icons ul {
+    /* text-align: left; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+
+  .sub-header .right-icons ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .sub-header .right-icons ul li a {
+    font-size: 10px;
+  }
+
+  /* header */
+
+  .header-area .main-nav .logo {
+    font-size: 20px;
+  }
+
+  .header-area .main-nav .nav li {
+    display: none;
+  }
+
+  .main-banner .caption {
+    margin-top: 50px;
+  }
+
+  /* service-section */
+
+  .services {
+    overflow: hidden;
+  }
+
+  .services .item {
+    margin-top: 185px;
+    width: 290px;
+  }
+
+  #education-section1 {
+    display: none;
+  }
+
+  .services .owl-service-item {
+    display: flex;
+    gap: 30px;
+  }
+
+  /* upcoming-meetings */
+
+  section.upcoming-meetings .section-heading h2 {
+    margin-top: 70px;
+  }
+
+  section.upcoming-meetings .categories h4 {
+    /* margin-top: 20px; */
+  }
+
+  section.upcoming-meetings .categories {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .meeting-item {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+  }
+
+  .meeting-item .thumb img {
+    width: -webkit-fill-available;
+    border-radius: 20px 20px 0px 0px;
+  }
+  /* apply now */
+
+  .apply-degree {
+    width: 100%;
+  }
+
+  .accordions {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+  /* our courses */
+  .item {
+    width: 100%;
+  }
+  .our-courses .item img {
+    width: -webkit-fill-available;
+    padding-right: 0px;
+  }
+
+  .our-courses .item .down-content {
+    width: auto;
+  }
+  /* oue facts */
+  .count-area-content.percentage {
+    width: 100%;
+  }
+
+  .count-area-content {
+    width: 100%;
+  }
+
+  .count-area-content.new-students {
+    width: 100%;
+  }
+
+  section.our-facts .video {
+    margin: 0 auto;
+  }
+
+  section.our-facts .video a img {
+    max-width: auto;
+  }
+
+  section.contact-us #contact {
+    width: auto;
+  }
+  /* our facts */
+
+  section.our-facts .video {
+    margin: auto 20px;
+  }
+
+  section.our-facts .video a img {
+    padding: 100px;
+  }
+
+  /* contact us */
+  section.contact-us .right-info {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: -webkit-fill-available;
+  }
+}
+
+/* max-width:800px */
+@media (min-width: 550px) and (max-width: 800px) {
+  .container {
+    margin: 0 30px;
+  }
+
+  /* sub header */
+
+  .sub-header .left-content p {
+    display: none;
+  }
+
+  .sub-header .right-icons {
+    margin: 0 auto;
+  }
+
+  .sub-header .right-icons ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .sub-header .right-icons ul li a {
+    font-size: 20px;
+  }
+
+  /* header */
+
+  .header-area .main-nav .logo {
+    font-size: 30px;
+  }
+
+  .header-area .main-nav .nav li {
+    display: none;
+  }
+
+  .main-banner .caption {
+    margin-top: 50px;
+  }
+
+  .main-banner .caption h6,
+  h2 {
+    font-size: 30px;
+  }
+
+  .main-banner .caption p {
+    font-size: 18px;
+  }
+
+  /* service-section */
+  .services {
+    overflow: hidden;
+  }
+
+  .services .item {
+    margin-top: 185px;
+    width: 350px;
+  }
+
+  /* #education-section1 {
+    display: none;
+  } */
+
+  .services .owl-service-item {
+    display: flex;
+    gap: 50px;
+  }
+
+  /* upcoming-meetings */
+
+  section.upcoming-meetings .section-heading h2 {
+    margin-top: 70px;
+  }
+
+  section.upcoming-meetings .categories {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  section.upcoming-meetings .categories h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  section.upcoming-meetings .categories ul {
+    text-align: center;
+  }
+
+  section.upcoming-meetings .categories ul li a {
+    font-size: 18px;
+  }
+
+  .meeting-item {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+  }
+
+  .meeting-item .thumb img {
+    width: -webkit-fill-available;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .meeting-item .down-content h4 {
+    margin-left: 65px;
+    font-size: 20px;
+  }
+
+  .meeting-item .down-content p {
+    margin-left: 145px;
+  }
+
+  .meeting-item .down-content .date h6 {
+    font-size: 20px;
+  }
+
+  /* apply now */
+
+  .apply-degree {
+    width: 100%;
+  }
+
+  .accordions {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+
+  /* our courses */
+  .our-courses .item img {
+    margin-top: 20px;
+    padding-right: 30px;
+  }
+
+  /* our facts */
+  .count-area-content.percentage {
+    width: 100%;
+  }
+
+  .count-area-content {
+    width: 100%;
+  }
+
+  .count-area-content.new-students {
+    width: 100%;
+  }
+
+  section.our-facts .video {
+    margin: 0 20px;
+  }
+
+  section.our-facts .video a img {
+    max-width: 100px;
+    padding: 200px 240px;
+  }
+
+  section.contact-us #contact {
+    width: auto;
+  }
+
+  /* contact us */
+  section.contact-us .right-info {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: -webkit-fill-available;
+  }
+}
+
+/* max-width:1320px */
+@media (min-width: 801px) and (max-width: 1320px) {
+  /* header */
+
+  .header-area .main-nav .logo {
+    line-height: 50px;
+  }
+
+  .main-banner .caption {
+    margin-top: 50px;
+  }
+
+  .main-banner .caption h6,
+  h2 {
+    font-size: 30px;
+  }
+
+  .main-banner .caption p {
+    font-size: 18px;
+  }
+
+  /* service-section */
+  .services {
+    overflow: hidden;
+  }
+
+  .services .item {
+    margin-top: 185px;
+    width: 350px;
+  }
+
+  .services .owl-service-item {
+    display: flex;
+    gap: 50px;
+  }
+
+  /* upcoming-meetings */
+
+  section.upcoming-meetings .section-heading h2 {
+    margin-top: 70px;
+    font-size: 40px;
+  }
+
+  section.upcoming-meetings .categories {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  section.upcoming-meetings .categories h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  section.upcoming-meetings .categories ul {
+    text-align: center;
+  }
+
+  section.upcoming-meetings .categories ul li a {
+    font-size: 20px;
+  }
+
+  .meeting-item {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+  }
+
+  section.upcoming-meetings .categories a {
+    font-size: 20px;
+  }
+
+  .meeting-item .thumb img {
+    width: -webkit-fill-available;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .meeting-item .down-content h4 {
+    margin-left: 65px;
+    font-size: 30px;
+  }
+
+  .meeting-item .down-content p {
+    margin-left: 160px;
+    font-size: 20px;
+  }
+
+  .meeting-item .down-content .date h6 {
+    font-size: 30px;
+  }
+
+  /* apply now */
+
+  section.apply-now .item h3 {
+    font-size: 30px;
+  }
+
+  section.apply-now .item p {
+    font-size: 20px;
+  }
+
+  section .main-button-yellow .scroll-to-section a,
+  .main-button-red a {
+    font-size: 20px;
+    color: white;
+  }
+
+  .apply-degree {
+    width: 100%;
+  }
+
+  .accordions {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+
+  .accordion-head {
+    font-size: 30px;
+  }
+
+  /* our courses */
+  .our-courses .item img {
+    margin-top: 20px;
+    padding-right: 30px;
+  }
+
+  /* our facts */
+  .count-area-content.percentage {
+    width: 100%;
+  }
+
+  .count-area-content {
+    width: 100%;
+  }
+
+  .count-area-content.new-students {
+    width: 100%;
+  }
+
+  section.our-facts .video {
+    margin: 0 20px;
+  }
+
+  section.our-facts .video a img {
+    max-width: 100px;
+    padding: 200px 240px;
+  }
+
+  section.contact-us #contact {
+    width: auto;
+  }
+
+  /* contact us */
+
+  section.contact-us #contact {
+    width: -webkit-fill-available;
+  }
+
+  section.contact-us .right-info {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: -webkit-fill-available;
+  }
+}
